@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTENIDOS</title>
+</head>
+<body>
+    <style>
+        strong{
+            font-size: 150%;
+            margin-right: 20px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:visited:hover{
+            color:red;
+        }
+
+        a:visited{
+            color: black;
+        }
+
+        .imagen{
+            height: 100px;
+        }
+
+        #tabla, #tabla *{
+            border: solid 2px;
+        }
+
+    </style>
+    <h1 style="text-align: center;">Mi primera web</h1><br/>
+    <nav id="menu">
+        <strong id="inicio"><a href="index.html">Inicio</a></strong>
+        <strong id="contenidos">Contenidos</strong>
+        <strong id="contacto"><a href="contacto.html">Contacto</a></strong>
+    </nav>
+    <hr>
+    <h2>Bienvenido a mis contenidos</h2>
+    <table id="tabla">
+        <tr>
+            <th>Perro</th>
+            <th>Oso</th>
+            <th>Caballito de mar</th>
+            <th>Gato</th>
+        </tr>
+        <tr>
+            <td><img class="imagen" src="./images/perro.jpg" alt="perro tabla"/></td>
+            <td><img class="imagen" src="./images/oso.jpg" alt="oso tabla"/></td>
+            <td><img class="imagen" src="./images/caballito.jpg" alt="caballito tabla"/></td>
+            <td><img class="imagen" src="./images/gato.jpg" alt="gato tabla"/></td>
+        </tr>
+    </table>
+</body>
+</html>

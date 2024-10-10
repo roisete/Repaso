@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+</head>
+<body>
+    <style>
+        strong{
+            font-size: 150%;
+            margin-right: 20px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:visited:hover{
+            color:red;
+        }
+
+        a:visited{
+            color: black;
+        }
+
+    </style>
+    <h1 style="text-align: center;">Mi primera web</h1><br/>
+    <nav id="menu">
+        <strong id="inicio"><a href="index.html">Inicio</a></strong>
+        <strong id="contenidos"><a href="contenidos.html">Contenidos</a></strong>
+        <strong id="contacto">Contacto</strong>
+    </nav>
+    <hr>
+    <h2>Contáctame aquí</h2>
+    <form action="index.html" method="get" id="formulario">
+        <label for="nombre">Nombre:</label><br/>
+        <input type="text" id="nombre" name="nombre" value=""><br/>
+        <label for="descripcion">Descrpcion:</label><br/>
+        <textarea name="mesnsaje" rows="10" cols="30"></textarea><br/>
+        <p>Indique su rango de edad:</p>
+        <input type="radio" id="edad1" name="edad">Mayor de edad<br/>
+        <input type="radio" id="edad2" name="edad">Adulto<br/>
+        <input type="radio" id="edad3" name="edad">Mayor de 65 años<br/>
+        <input type="submit" value="Confirmar">
+    </form>        
+
+</body>
+</html>
